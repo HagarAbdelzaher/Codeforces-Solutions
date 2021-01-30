@@ -6,10 +6,6 @@
 #define fi first
 #define se second
 typedef long long ll;
-//const int oo=(1LL<<30);
-//const ll  OO=(1LL<<62);
-//const int MaxSize=1e2+2;
-//const double PI=3.141592653589;
 #include <stdio.h>
 #include <iostream>
 #include<bits/stdc++.h>
