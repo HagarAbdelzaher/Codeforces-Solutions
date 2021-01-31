@@ -1,0 +1,27 @@
+#include <iostream>
+#include <bits/stdtr1c++.h>
+using namespace std;
+#define ll  long long
+#define ld long double
+#define pb push_back
+#define INF 0x3f3f3f3f
+#define vi vector<int>
+#define vl vector<long long>
+#define print(el) cout<<(el)<<endl;
+const int N = int(1e5 + 3);
+const long double PI = 3.1415926536;
+
+int main()
+{
+    int t;
+    cin>>t;
+    while (t--)
+    {
+    int a , b;
+    cin>>a>>b;
+    if( 2*a > b)
+        cout<<-1 << " " << -1 <<endl;
+    else
+        cout << a << " " << 2*a <<endl;
+    }
+}
